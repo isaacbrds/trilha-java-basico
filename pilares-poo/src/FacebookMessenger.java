@@ -1,6 +1,7 @@
 public class FacebookMessenger extends ServicoMensagemInstantanea{
 
     public void enviarMensagem(){
+        verificarConexaoComInternet();
         System.out.println("Enviando Mensagem Facebook Messanger");
         
     }
