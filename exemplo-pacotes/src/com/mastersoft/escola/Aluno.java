@@ -4,6 +4,15 @@ public class Aluno {
     private String nome;
     private int idade;
 
+    private double nota; 
+
+    public void setNota(double novaNota) {
+        nota = novaNota;
+    }
+    
+    public double getNota() {
+        return nota;
+    }
     public void setNome(String novoNome){
         nome = novoNome;
     }
