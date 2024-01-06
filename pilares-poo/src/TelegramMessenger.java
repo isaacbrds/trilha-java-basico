@@ -1,20 +1,10 @@
 public class TelegramMessenger extends ServicoMensagemInstantanea{
     public void enviarMensagem(){
-        validarConexaoComInternet();
-        System.out.println("Enviando Mensagem");
-        salvarHistoricoMensagem();
+        System.out.println("Enviando Mensagem pelo telegram");
     }
 
     public void receberMensagem(){
-        System.out.println("Recebendo Mensagem");
-    }
-
-    private void validarConexaoComInternet(){
-        System.out.println("Verificando conexao com Internet.");
-    }
-
-    private void salvarHistoricoMensagem(){
-        System.out.println("Salvando o histórico da mensagem.");
+        System.out.println("Recebendo Mensagem pelo telegram");
     }
 
 }
