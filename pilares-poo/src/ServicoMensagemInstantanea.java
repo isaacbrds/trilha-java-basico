@@ -1,5 +1,4 @@
-public class MSNMessenger extends ServicoMensagemInstantanea{
-    
+public class ServicoMensagemInstantanea {
     public void enviarMensagem(){
         validarConexaoComInternet();
         System.out.println("Enviando Mensagem");

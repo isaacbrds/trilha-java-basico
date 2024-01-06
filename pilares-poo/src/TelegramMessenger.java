@@ -1,5 +1,4 @@
-public class MSNMessenger extends ServicoMensagemInstantanea{
-    
+public class TelegramMessenger extends ServicoMensagemInstantanea{
     public void enviarMensagem(){
         validarConexaoComInternet();
         System.out.println("Enviando Mensagem");
@@ -17,4 +16,5 @@ public class MSNMessenger extends ServicoMensagemInstantanea{
     private void salvarHistoricoMensagem(){
         System.out.println("Salvando o histórico da mensagem.");
     }
+
 }
