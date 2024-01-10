@@ -8,11 +8,14 @@ public class Main {
         Poupanca poupanca = new Poupanca();
 
         cc.depositar(1000);
+        cc.informarExtrato();
         cc.sacar(20);
+        cc.informarExtrato();
         cc.transferir(500, poupanca);
         cc.informarExtrato();
         poupanca.informarExtrato();
         poupanca.rendimento();
         poupanca.informarExtrato();
+        cc.informarExtrato();
     }
 }
