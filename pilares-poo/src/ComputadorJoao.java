@@ -14,7 +14,5 @@ public class ComputadorJoao {
 
         smi.enviarMensagem();
         smi.receberMensagem();
-
-        
     }
 }
